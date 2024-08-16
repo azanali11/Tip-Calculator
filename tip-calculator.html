@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip + Calculator</title>
+  <link rel="stylesheet" href="tip.style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <form class="row g-3" id="tipForm">
+    <div class="main-div">
+      <div class="col-auto amount">
+        <label for="staticEmail2" class="visually-visible label">Bill Amount</label>
+        <input style="width: 300px; height: 50px;" type="number" class="form-control my-Amount" id="staticEmail2 "
+          placeholder="amount...">
+      </div>
+      <div class="col-auto amount">
+        <label for="inputPassword2" class="visually-visible label">Tip Percentage</label>
+        <input style="width: 300px; height: 50px;" class="form-control my-tip" id="inputPassword2 "
+          placeholder="Percentage...">
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3  my-btn">Calculate</button>
+      </div>
+    </div>
+    <h2 class=" result"></h2>
+  </form>
+
+
+
+  <script src="tipCalculator.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+.main-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.amount {
+  margin: 25px;
+}
+.my-input {
+}
+.my-btn {
+  margin: 70px;
+  height: 50px;
+  width: 100px;
+}
+.result {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 200;
+}
+.label {
+  font-size: x-large;
+  margin-bottom: 10px;
+}
